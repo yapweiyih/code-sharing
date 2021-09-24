@@ -1,0 +1,6 @@
+pandas
+matplotlib
+seaborn
+
+
+aws s3 sync s3://custom-cba-sgtecspike-aug/pkgs /home/ec2-user/SageMaker/pkgs --sse-kms-key-id 6b5904d6-6cd0-4e00-a922-8b3589dc42ce --sse aws:kms

@@ -1,0 +1,18 @@
+{
+    "Parameters": {
+        "PipelineName": "MlMaxPipelineDemo",
+        "TargetEnv": "prod",
+        "PackageBucket": "sagemaker-us-east-1-783128296767",
+        "IsEnableTraining": "yes",
+        "IsEnableScheduler": "yes",
+        "IsCreateSagemakerRole": "no",
+        "InputDataURL": "s3://sagemaker-sample-data-us-east-1/processing/census/census-income.csv",
+        "ProcModelS3": "s3://sagemaker-us-east-1-342474125894/scikit-learn-sm-preprocessing-1086058c148f11ec8043acde48001122/output/proc_model.tar.gz",
+        "PreprocessingCodeURL": "s3://sagemaker-us-east-1-342474125894/sklearn-sm-preprocessing-17853c86148f11ec8043acde48001122/source/preprocessing.py",
+        "InferenceCodeURL": "s3://sagemaker-us-east-1-342474125894/sklearn-sm-inference-17853c86148f11ec8043acde48001122/source/inference.py",
+        "ModelS3": "s3://sagemaker-us-east-1-342474125894/scikit-learn-training-1086058c148f11ec8043acde48001122/output/model.tar.gz",
+        "PreprocessedTrainDataURL": "s3://sagemaker-us-east-1-342474125894/sklearn-sm-preprocessing-17853c86148f11ec8043acde48001122/output_data/train_data",
+        "PreprocessedTestDataURL": "s3://sagemaker-us-east-1-342474125894/sklearn-sm-preprocessing-17853c86148f11ec8043acde48001122/output_data/test_data",
+        "OutputPathURL": "s3://sagemaker-us-east-1-342474125894/sklearn-sm-inference-17853c86148f11ec8043acde48001122/output"
+    }
+}
